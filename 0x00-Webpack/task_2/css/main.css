@@ -1,0 +1,19 @@
+#count {
+    position: fixed; /* Fixes the counter to the viewport */
+    bottom: 10px;    /* 10px from the bottom */
+    right: 10px;     /* 10px from the right */
+    font-weight: bold; /* Makes the counter bold */
+    background-color: #f0f0f0; /* Light background for visibility */
+    padding: 5px 10px; /* Adds some padding around the text */
+    border-radius: 5px; /* Optional: Rounded corners */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Optional: Subtle shadow */
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    background-image: url('../assets/holberton-logo.png'); /* Adjust the path if necessary */
+    background-size: 200px 200px; /* This will scale the image to fit the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;  /* Center the image */
+  }
