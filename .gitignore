@@ -5,8 +5,7 @@ node_modules/
 *.log
 
 # Ignore build directories
-build/
-dist/
+public/
 
 # Ignore IDE configuration files
 .idea/
